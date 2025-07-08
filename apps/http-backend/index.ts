@@ -1,5 +1,5 @@
 import express from "express";
-import { prismaClient } from "@repo/db/client";
+import { prismaClient } from "db/client";
 import { authMiddleware } from "./middleware/auth";
 import jwt from "jsonwebtoken";
 import { JWT_SECRET } from "./config";
