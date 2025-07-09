@@ -24,4 +24,5 @@ jobs:
           context: .
           file: ./docker/Dockerfile.http
           push: true
-          tags: anukoolvikram/todo-app-http:${{ github.sha }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/todo-app-http:${{ github.sha }}
+
