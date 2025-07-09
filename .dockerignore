@@ -1,0 +1,5 @@
+# Ignore large/local-only files
+node_modules
+dist
+.env
+.git

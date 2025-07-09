@@ -10,6 +10,7 @@
     "lint": "next lint --max-warnings 0",
     "check-types": "tsc --noEmit"
   },
+  "packageManager": "bun@1.2.18",
   "dependencies": {
     "@repo/ui": "*",
     "next": "^15.3.0",
